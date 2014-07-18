@@ -10,7 +10,7 @@ This program shows how event sourcing is applied when using cluster
 - To run it on differnt machines:
 
      - Copy the code on each machine
-     - change the hostname in application.conf  to the IP address for each machine 
+     - In each machine, change the hostname in application.conf to the IP address of that machine.
      - Change the seed node to one of the machine where you plan to run you program
      - navigate to project folder, and type "sbt"
      - You need to have one GPA cacultor node "consumer", and one or more of Grade generator nodes "Producer"
